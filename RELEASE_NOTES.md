@@ -1,3 +1,4 @@
-- Compiled against Gateway API v1.4 (previously v1.1)
-- Now supports the standard CORS filter type in HTTPRoute
-- Golang updated to 1.24 and K8s client libraries to 0.34.x
+- Preserve existing headers in HTTP route when using header based routing
+- Improved documentation for ignoring differences in Argo CD
+- Clarified which namespace is used if not defined in the Rollout
+
